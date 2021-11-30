@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --first-color: hsl(260, 6%, 29%);
+    --first-second-color: hsl(35, 7%, 52%);
+    --second-color: hsl(30, 50%, 97%);
+    --purple-color: hsl(257, 81%, 59%);
+    --purple-second-color: hsl(259, 21%, 54%);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background: #FBF7F3 !important;
+}
+
+ul, ol, a, li {
+    list-style: none;
+    text-decoration: none !important;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+/* Header */
+.navbar-nav {
+    border-radius: 100px;
+    background: #fff;
+}
+.nav-item {
+    padding: 6px;
+}
+.nav-item:nth-child(1) {
+    margin-left: 25px;
+}
+.marg {
+    margin-right: 25px;
+}
+.nav-link {
+    color: var(--first-color);
+    font-size: 15px;
+}
+.invite-btn {
+    display: block;
+    color: var(--second-color) !important;
+    background: var(--purple-color);
+    border-radius: 100px;
+    padding: 10px 25px !important;
+    font-size: 16px;
+    transition: 0.5s ease;
+}
+.invite-btn:hover {
+    background: hsl(257, 84%, 64%);
+}

@@ -1,0 +1,11 @@
+@media screen and (max-width: 991px) {
+    .navbar-nav {
+        background: #FBF7F3 !important;
+    }
+    .nav-item:nth-child(1) {
+        margin-left: 0 !important;
+    }
+    .marg {
+        margin-right: 0 !important;
+    }
+}
