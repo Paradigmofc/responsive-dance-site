@@ -9,10 +9,44 @@
         margin-right: 0 !important;
     }
 }
+@media screen and (max-width: 768px) {
+    .move{
+        height: 60vh;
+    }
+    .move__content {
+        padding-top: 61px;
+    }
+    .move__title {
+        font-size: 52px;
+        letter-spacing: 3px;
+        line-height: 65px;
+    }
+    .move__description {
+        font-size: 18px;
+    }
+}
 @media screen and (max-width: 450px) {
     .hero__title {
         font-size: 48px;
         line-height: 50px;
         letter-spacing: 1px;
+    }
+    .move__title {
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 1px;
+    }
+    .move__description {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 342px) {
+    .move__title {
+        font-size: 32px;
+        line-height: 39px;
+        letter-spacing: 1px;
+    }
+    .move__description {
+        font-size: 12px;
     }
 }

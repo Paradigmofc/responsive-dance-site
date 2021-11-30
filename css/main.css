@@ -74,8 +74,27 @@ img {
 .hero__title {
     font-size: 80px;
     letter-spacing: 2.7px;
+    color: var(--second-color);
 }
 .hero__description {
     font-size: 16px;
     line-height: 18px;
+    color: var(--second-color);
+}
+/* Move */
+.move {
+    background: url('../img/impact-bg.jpg') center / cover no-repeat;
+    height: 100vh;
+}
+.move__content {
+    padding-top: 81px;
+}
+.move__title {
+    color: var(--second-color);
+    font-size: 93px;
+    letter-spacing: 5px;
+}
+.move__description {
+    color: var(--second-color);
+    font-size: 29px;
 }
