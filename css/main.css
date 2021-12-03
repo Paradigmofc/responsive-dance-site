@@ -98,3 +98,10 @@ img {
     color: var(--second-color);
     font-size: 29px;
 }
+/* Ride */
+.ride__data {
+    padding-top: 250px;
+}
+.ride__title {
+    font-size: 82px;
+}
