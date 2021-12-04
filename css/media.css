@@ -1,3 +1,11 @@
+@media screen and (max-width: 1120px) {
+    .footer__image1 {
+        display: none;
+    }
+    .footer__image2 {
+        display: none;
+    }
+}
 @media screen and (max-width: 991px) {
     .navbar-nav {
         background: #FBF7F3 !important;
@@ -33,6 +41,9 @@
     .built__title {
         font-size: 48px;
     }
+    .stay-card {
+        margin-right: 0;
+    }
 }
 @media screen and (max-width: 450px) {
     .hero__title {
@@ -54,8 +65,20 @@
     .big-bg {
         height: 60vh;
     }
+    .stay__description {
+        width: 255px !important;
+    }
 }
-@media screen and (max-width: 342px) {
+@media screen and (max-width: 400px) {
+    .stay__title {
+        font-size: 64px;
+        letter-spacing: -1px;
+    }
+    .stay__description {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 375px) {
     .move__title {
         font-size: 32px;
         line-height: 39px;
@@ -63,5 +86,11 @@
     }
     .move__description {
         font-size: 12px;
+    }
+    .footer__title {
+        font-size: 60px;
+    }
+    .footer__description {
+        font-size: 14px;
     }
 }

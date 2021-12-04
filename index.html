@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <!-- Animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <!-- Css -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
@@ -20,7 +23,7 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-tranparent">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">
-                      <img src="img/logo.png" alt="Image" class="logo">
+                      <img src="img/logo.webp" alt="Image" class="logo">
                   </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -31,13 +34,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                       </li>
                       <li class="nav-item marg">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                       </li>
                       <li class="nav-item marg">
-                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="#blog">Blog</a>
                       </li>
                       <li class="nav-item marg">
-                        <a class="nav-link" href="#">Jobs</a>
+                        <a class="nav-link" href="#jobs">Jobs</a>
                       </li>
                       <li class="nav-item">
                         <a href="#" class="nav-link invite-btn">Request an invite</a>
@@ -51,7 +54,7 @@
     <!-- ======================== Main ====================== -->
     <main class="main">
       <!-- ================= Hero =============== -->
-      <div class="hero">
+      <div class="hero animate__animated animate__fadeInLeft">
         <div class="container">
           <div class="hero__data">
             <div class="row justify-content-center">
@@ -83,7 +86,7 @@
         </div>
       </div>
       <!-- ============= Move ============== -->
-      <div class="move">
+      <div class="move animate__animated animate__fadeInRight">
         <div class="container-fluid">
           <div class="row">
             <div class="col-12">
@@ -100,7 +103,7 @@
         </div>
       </div>
       <!-- ================= Ride ================ -->
-      <div class="ride">
+      <div class="ride" id="about">
         <div class="container">
           <div class="row">
             <div class="ride__data d-flex justify-content-between align-items-center">
@@ -117,7 +120,7 @@
                 </div>
                 <div class="col col-lg-4">
                   <div class="ride__img-block">
-                    <img src="img/vehicle.png" alt="Image" class="ride__img">
+                    <img src="img/vehicle.webp" alt="Image" class="ride__img">
                   </div>
                 </div>
                 <div class="col col-lg-3">
@@ -138,7 +141,7 @@
         </div>
       </div>
       <!-- ======================= Built ==================== -->
-      <div class="built">
+      <div class="built" id="blog">
         <div class="container">
           <div class="row">
             <div class="col">
@@ -150,7 +153,7 @@
                   Engineered in Germany, loved around the world.
                 </p>
                 <div class="built__img-block">
-                  <img src="img/bycicle.png" alt="Image" class="built__img">
+                  <img src="img/bycicle.webp" alt="Image" class="built__img">
                 </div>
               </div>
             </div>
@@ -160,7 +163,7 @@
             <div class="col">
               <div class="card bg-transparent border-0">
                 <h5 class="card-title">Battery</h5>
-                  <img src="img/battery.png" class="card-img-top" alt="Image">
+                  <img src="img/battery.webp" class="card-img-top" alt="Image">
                 <div class="card-body">
                   <p class="card-text">Powered by a removable lithium battery that lasts approximately 55km at full capacity.
                     Recharge back to 80% in two hours.</p>
@@ -170,7 +173,7 @@
             <div class="col">
               <div class="card bg-transparent border-0">
                 <h5 class="card-title">Belt drive</h5>
-                  <img src="img/belt.png" class="card-img-top" alt="Image">
+                  <img src="img/belt.webp" class="card-img-top" alt="Image">
                 <div class="card-body">
                   <p class="card-text">High-reliability carbon belt drive to provide the cleanest, most frictionless experience around. No grease, no rust, no worries!</p>
                 </div>
@@ -179,7 +182,7 @@
             <div class="col">
               <div class="card bg-transparent border-0">
                 <h5 class="card-title">Power assist</h5>
-                  <img src="img/power.png" class="card-img-top" alt="Image">
+                  <img src="img/power.webp" class="card-img-top" alt="Image">
                 <div class="card-body">
                   <p class="card-text">Two modes of motor support for smooth cycling up to 25 km/h or no support to keep you going on a low battery.</p>
                 </div>
@@ -192,7 +195,69 @@
       <div class="big-bg">
         <div class="container-fluid"></div>
       </div>
+      <!-- ================= Stay ================= -->
+      <div class="stay">
+        <div class="container">
+         <div class="stay__data">
+           <div class="row">
+             <div class="col-lg-6">
+              <div class="stay__content">
+                <h1 class="stay__title mb-4">
+                  Stay on the go
+                </h1>
+                <p class="stay__description" style="width: 300px;">
+                  Instant repairs and servicing, all for free.
+                  Our experienced concierge service is on the ground 12 hours a day to save you time and keep you moving
+                </p>
+              </div>
+             </div>
+           </div>
+           <div class="row justify-content-center align-items-center">
+              <div class="card stay-card bg-transparent border-0" style="width: 18rem;">
+                <img src="img/card-1.webp" class="card-img-top" alt="Image">
+                <div class="card-body">
+                  <p class="card-text mt-4">Book a repair from the app to your location</p>
+                </div>
+             </div>
+
+              <div class="card stay-card bg-transparent border-0" style="width: 18rem;">
+                <img src="img/card-2.webp" class="card-img-top" alt="Image">
+                <div class="card-body">
+                  <p class="card-text mt-4">All servicing and maintenance included</p>
+                </div>
+             </div>
+
+              <div class="card stay-card bg-transparent border-0" style="width: 18rem;">
+                <img src="img/card-3.webp" class="card-img-top" alt="Image">
+                <div class="card-body">
+                  <p class="card-text mt-4">Fixed and returned to you within 24 hours</p>
+                </div>
+              </div>
+           </div>
+          </div>
+         </div>
+      </div>
     </main>
+    <!-- =================== Footer =============== -->
+    <footer class="footer" id="jobs">
+        <div class="container footer__container">
+          <div class="row justify-content-center align-items-center">
+            <img src="img/Left-footer.webp" alt="Image" class="footer__image1">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="footer__text text-center">
+                <h1 class="footer__title">
+                  Join the movement
+                </h1>
+                <p class="footer__description">
+                  When you join the Dance movement, you’re not just getting an ebike that stands out from the crowd.
+                  You’re joining a forward-thinking community that truly cares for this planet we call home and wants to make choices for the better.
+                </p>
+              </div>
+            </div>
+            <img src="img/Right-footer.webp" alt="Image" class="footer__image2">
+          </div>
+        </div>
+    </footer>
 </body>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
