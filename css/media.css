@@ -51,6 +51,9 @@
     .built__description {
         font-size: 16px;
     }
+    .big-bg {
+        height: 60vh;
+    }
 }
 @media screen and (max-width: 342px) {
     .move__title {

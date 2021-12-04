@@ -159,3 +159,8 @@ img {
 .padding__built-cards {
     padding-bottom: 162px;
 }
+/* Big bg */
+.big-bg {
+    background: url('../img/big-bg.jpg') center / cover no-repeat;
+    height: 100vh;
+}
