@@ -11,6 +11,9 @@
     .ride__data {
         flex-direction: column;
     }
+    .built__cards-block {
+    flex-direction: column;
+    }
 }
 @media screen and (max-width: 768px) {
     .move{
@@ -27,6 +30,9 @@
     .move__description {
         font-size: 18px;
     }
+    .built__title {
+        font-size: 48px;
+    }
 }
 @media screen and (max-width: 450px) {
     .hero__title {
@@ -41,6 +47,9 @@
     }
     .move__description {
         font-size: 14px;
+    }
+    .built__description {
+        font-size: 16px;
     }
 }
 @media screen and (max-width: 342px) {
