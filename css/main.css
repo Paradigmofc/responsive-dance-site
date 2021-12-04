@@ -156,3 +156,6 @@ img {
 .card-text {
     color: var(--first-color);
 }
+.padding__built-cards {
+    padding-bottom: 162px;
+}
