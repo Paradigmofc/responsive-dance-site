@@ -104,4 +104,34 @@ img {
 }
 .ride__title {
     font-size: 82px;
+    color: var(--first-color);
+}
+.ride__description {
+    color: var(--purple-second-color);
+    line-height: 20px;
+}
+.subscriptions__title {
+    font-size: 12px;
+    color: var(--first-color);
+}
+.subscriptions__li {
+    color: var(--purple-second-color);
+    position: relative;
+}
+.subscriptions__li::after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #7140EB;
+    border-radius: 50px;
+    left: -50px;
+    top: -4px;
+    transition: 0.4s ease;
+    pointer-events: none;
+    z-index: -1;
+}
+.subscriptions__li:hover::after{
+    left: 0;
 }
